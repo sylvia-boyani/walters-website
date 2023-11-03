@@ -5,6 +5,11 @@ export const nav = [
     url: "/",
   },
   {
+    id: 1,
+    text: "blogs",
+    url: "blogs",
+  },
+  {
     id: 2,
     text: "about",
     url: "/about",
@@ -16,8 +21,8 @@ export const nav = [
   },
   {
     id: 4,
-    text: "blog",
-    url: "/blog",
+    text: "services",
+    url: "/services",
   },
   {
     id: 5,
