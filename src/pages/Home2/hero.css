@@ -1,0 +1,48 @@
+/* --------------------HOME------------------------ */
+.left, .right{
+    width: 50%;
+    position: relative;
+}
+
+.flex{
+    display: flex;
+}
+
+.topMargin{
+    margin-top: 80px;
+}
+
+.hero{
+  height: 90vh;
+}
+
+.hero .img{
+   height: 90vh;
+   width: 100%;
+   position: relative;
+}
+
+.hero img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 90vh;
+    width: 100%;
+    object-fit: contain;
+    transform: scale(1.1)
+}
+
+.hero h1{
+    font-size: 60px;
+}
+
+.socialIcon i {
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 10px;
+    border-radius: 50%;
+    transition: 0.5s;
+    cursor: pointer;
+}
