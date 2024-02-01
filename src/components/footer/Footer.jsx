@@ -8,7 +8,7 @@ export const Footer = () => {
     <>
       <footer className='boxItems'>
         <div className='container flex'>
-          <p>Cartsy Medicine - All right reserved - Design & Developed by RedQ, Inc</p>
+          <p>Walter Ambenge Obura - All right reserved - Design & Developed by Boyani_codes</p>
           <div className='social'>
             <BsFacebook className='icon' />
             <RiInstagramFill className='icon' />
