@@ -124,6 +124,31 @@ form input {
   font-size: 15px;
   margin: 10px, 0 20px, 0;
 }
+.mtop{
+  margin-top: 50px;
+}
+h3{
+  font-size: 15px;
+  font-weight: 500;
+  margin: 20px 0;
+  color: #383d2e;
+  text-transform: uppercase;
+}
+
+.heading h1{
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.abouot p{
+  margin-bottom: 20px;
+}
+.about .img{
+  position: relative;
+  display: block;
+  margin-left:auto;
+  margin-right: auto;
+  width: 50%;
+}
 .container {
   max-width: 95%;
   margin: auto;

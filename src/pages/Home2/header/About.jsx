@@ -1,4 +1,5 @@
 import React from 'react'
+import pic from '../../../assets/images/input.png'
 
 export default function About() {
   const data = [
@@ -17,6 +18,7 @@ export default function About() {
         {
           data.map((val) =>{
             return (
+              <>
             <div className='left mtop'>
               <div className='heading'>
                 <h3>About Me</h3>
@@ -24,8 +26,16 @@ export default function About() {
               </div>
               <p>{val.desc1}</p>
               <p>{val.desc2}</p>
-              <p>{val.desc3}</p>              
+              <p>{val.desc3}</p> 
+              <button className='primary-btn'>Read More</button>             
             </div>
+            <div className='right'>
+              <div className='img'>
+                <img src={pic} alt='pic2' />
+              </div>
+
+            </div>
+            </>
             )
           })
         }
