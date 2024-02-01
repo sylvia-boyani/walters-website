@@ -106,6 +106,24 @@ form input {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 15px;
 }
+.branding{
+  background-color: #000;
+  color: fff;
+  margin-top: 35px;
+  padding: 80px 0;
+}
+.txt{
+  color: #705a4a;
+  font-size: 40px;
+  margin-right: 20px;
+  
+}
+.para{
+  color: #383d2e;
+  font-weight: 500;
+  font-size: 15px;
+  margin: 10px, 0 20px, 0;
+}
 .container {
   max-width: 95%;
   margin: auto;
