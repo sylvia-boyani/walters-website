@@ -149,6 +149,16 @@ h3{
   margin-right: auto;
   width: 50%;
 }
+.about .img::after{
+  content: '';
+  position: absolute;
+  top: 0; left: -50px;
+  right: 0;
+  background-color: #383d2e;
+  width: 600px;
+  height: 56vh;
+  z-index: -1;
+}
 .container {
   max-width: 95%;
   margin: auto;
