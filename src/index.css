@@ -204,6 +204,77 @@ h3{
   color: #fff;
 }
 /*-----------------wrapper-------------*/
+/*------------ skill ----------*/
+.skill {
+  padding: 50px 0;
+}
+.skill .heading {
+  text-align: center;
+}
+.progress {
+  background-color: #d5d5d5;
+  border-radius: 20px;
+  position: relative;
+  margin: 45px 0;
+  height: 10px;
+  width: 90%;
+}
+.progress h4 {
+  position: absolute;
+  color: black;
+  top: -30px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.progress h4:nth-child(2) {
+  right: 0;
+  font-size: 17px;
+  font-weight: 400;
+  color: #7f9cb5;
+}
+h1{
+  color: #525b43;
+}
+.progress-done {
+  background-color: #705a4a;
+  border-radius: 20px;
+  color: #fff;
+  height: 100%;
+  width: 0;
+  opacity: 0;
+  transition: 1s ease 0.3s;
+}
+.skill .right {
+  padding: 0 50px;
+}
+.skill .right h1 {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.skill .right p {
+  margin-bottom: 20px;
+}
+/*------------ skill ----------*/
+/*------------ wrapperOne ----------*/
+.grid1 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+}
+.wrapperOne {
+  background: #705a4a;
+  text-align: center;
+}
+.wrapperOne h1 {
+  color: #fff;
+}
+.wrapperOne p {
+  font-size: 14px;
+  margin: 10px 0;
+  color: #fff;
+}
+/*------------ wrapperOne ----------*/
+
 .container {
   max-width: 95%;
   margin: auto;
@@ -217,6 +288,8 @@ h3{
 .primary-btn:hover{
   background-color: #705a4a;
 }
+
+
 footer {
   padding: 10px;
 }
@@ -227,9 +300,133 @@ footer .icon {
 @media screen and (max-width: 768px) {
   .grid3,
   .grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 .link {
   color: #000;
+}
+
+@media screen and (max-width: 768px) {
+  /*------------ home ----------*/
+  .left,
+  .right {
+    width: 100%;
+  }
+  .home .container {
+    flex-direction: column;
+    flex-direction: column-reverse;
+  }
+  .home {
+    height: 134vh;
+  }
+  .home .img {
+    height: 100%;
+    width: 100%;
+    position: relative;
+  }
+  .home img {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    transform: scale(1);
+  }
+  /*------------ home ----------*/
+  /*------------ Branding ----------*/
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  /*------------ Branding ----------*/
+  /*------------ about ----------*/
+  .about .container {
+    flex-direction: column;
+  }
+  .about .img {
+    width: 100%;
+    height: 100%;
+  }
+  .about img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  .about .img::after {
+    display: none;
+  }
+  /*------------ about ----------*/
+  /*------------ wrapper ----------*/
+  .wrapper .container {
+    max-width: 80%;
+  }
+  /*------------ skill ----------*/
+  .skill .content {
+    flex-direction: column;
+  }
+  .skill .right {
+    padding: 0 0;
+  }
+
+  /*------------ skill ----------*/
+
+  /*------------ work ----------*/
+  .work {
+    height: 340vh;
+  }
+
+  .work .content {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 20vw);
+  }
+
+  .work .box:nth-child(1) {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 5;
+  }
+  .work .box:nth-child(2) {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 5;
+    grid-row-end: 8;
+  }
+
+  .work .box:nth-child(3) {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 8;
+    grid-row-end: 11;
+  }
+  .work .box:nth-child(4) {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 11;
+    grid-row-end: 14;
+  }
+  .work .box:nth-child(5) {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 14;
+    grid-row-end: 17;
+  }
+  .work .box:nth-child(6) {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 17;
+    grid-row-end: 20;
+  }
+
+  .work .box:nth-child(5)::after,
+  .work .box:nth-child(4)::after,
+  .work .box:nth-child(3)::after,
+  .work .box:nth-child(2)::after,
+  .work .box:nth-child(6)::after,
+  .work .box:nth-child(1)::after {
+    width: 767px;
+    height: 550px;
+    background: rgba(18, 22, 25, 0.925);
+  }
+
+  /*------------ work ----------*/
 }

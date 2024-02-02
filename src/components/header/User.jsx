@@ -29,8 +29,8 @@ export const User = () => {
                       <img src='https://images.pexels.com/photos/1097456/pexels-photo-1097456.jpeg?auto=compress&cs=tinysrgb&w=600' alt='' />
                     </div>
                     <div className='text'>
-                      <h4>Eden Smith</h4>
-                      <label>Los Angeles, CA</label>
+                      <h4>Walter Ambenge</h4>
+                      <label>Nairobi, Kenya</label>
                     </div>
                   </div>
                 </Link>
@@ -48,19 +48,19 @@ export const User = () => {
                 </Link>
                 <button className='box'>
                   <BsBagCheck className='icon' />
-                  <h4>My Order</h4>
+                  <h4>About Me</h4>
                 </button>
                 <button className='box'>
                   <AiOutlineHeart className='icon' />
-                  <h4>Wishlist</h4>
+                  <h4>Contact</h4>
                 </button>
                 <button className='box'>
                   <GrHelp className='icon' />
-                  <h4>Help</h4>
+                  <h4>Need Help?</h4>
                 </button>
                 <button className='box'>
                   <BiLogOut className='icon' />
-                  <h4>Log Out</h4>
+                  <h4>Hire Me</h4>
                 </button>
               </div>
             )}
