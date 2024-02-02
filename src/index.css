@@ -98,7 +98,7 @@ form input {
 }
 .grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
 }
 .grid3 {
@@ -188,6 +188,22 @@ h3{
   margin-bottom: 20px;
 }
 /*------------services-------------*/
+/*------------ wrapper ----------*/
+.wrapper .container {
+  max-width: 100%;
+  margin: auto;
+  text-align: center;
+  background-color: #705a4a;
+}
+.wrapper h2 {
+  font-size: 40px;
+}
+.wrapper p {
+  opacity: 1;
+  margin-bottom: 30px;
+  color: #fff;
+}
+/*-----------------wrapper-------------*/
 .container {
   max-width: 95%;
   margin: auto;

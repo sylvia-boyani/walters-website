@@ -17,11 +17,6 @@ export default function Branding() {
           title: "Digital Branding",
           desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         },
-        {
-          id: 4,
-          title: "Digital Marketing",
-          desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        },
     ]
   return (
     <>
